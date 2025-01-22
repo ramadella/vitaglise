@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=dashboardTitle%></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp" rel="stylesheet"/>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="background">
+    <section class="home">
+      <div class="home-content">
+         <h3>Welcome To Vitaglise</h3>
+         <h1>THE BEST MEDICAL SERVICES</h1>
+         <h3>We Provide <span class ="text"></span></h3>
+            <div class="home-sci">
+               <a href="https://www.instagram.com/vitaglise_pkmkc/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+               <a href="https://www.youtube.com/@VitaglisePKMKC" target="_blank"><i class='bx bxl-youtube  -circle' ></i></a>
+               <a href="https://wa.me/6283177086043" target="_blank"><i class='bx bxl-whatsapp-square' ></i></a>
+      </div>
+      <a href="#health" class="btn-box">GET STARTED</a>
+   </div>
+<span class="home-imgHover"></span>
+   </section>
+  </div>
+  <div class="background2">
+    <section>
+      <div class="services">
+         <div class="container2">
+            <h1 class="sub-title" id="health"><span>Check Your Health</span></h1>
+            <div class="services-list">
+               <div>
+                <i class='bx bx-plus-medical' style='color:#00003b'  ></i>
+                  <h2>Vitaglise</h2>
+                  <a href="#learn1" class="read">learn more</a>
+               </div>
+               <div>
+                <i class='bx bxs-donate-heart' style='color:#00003b'></i>
+                  <h2>Jantung Koroner</h2>
+                  <a href="#learn2" class="read">learn more</a>
+               </div>
+               <div>
+                <i class='bx bxs-dashboard' style='color:#00003b'  ></i>
+                  <h2>Dashboard</h2>
+                  <a href="#learn3" class="read">learn more</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+  </div>
+         <!-- about section -->
+         <section id = "about" class = "about py">
+          <div class = "about-inner">
+              <div class = "container grid">
+                  <div class = "about-left text-center">
+                      <div class = "section-head" id="learn1">
+                          <h2>Vitaglise</h2>
+                          <div class = "border-line"></div>
+                      </div>
+                      <p class = "text text-lg">Vitaglise merupakan sebuah Alat Pencegahan Dini Hiperkolesterolemia dan Hiperglikemia bagi Penderita Penyakit Jantung Koroner Terintegrasi Internet of Things dengan Metode Artificial Intelligence
+                        Berawal dari kata "Vita" yang berasal dari bahasa Latin, yang berarti "hidup" atau "kehidupan", VitaGlise mengartikan kehidupan secara menyeluruh. Ini bukan sekadar alat, tetapi sebuah mitra yang memahami bahwa kehidupan adalah tentang keseimbangan, pencegahan, dan pengawasan yang berkelanjutan.
+                        Dengan memadukan elemen Internet of Things (IoT) dan kecerdasan buatan, VitaGlise memonitor setiap detak jantung dan level gula serta kolesterol dalam tubuh secara real-time. Sebagai seorang yang menderita penyakit jantung koroner, ini memberikan kepastian dan ketenangan pikiran yang luar biasa, karena kesehatannya terpantau secara terus-menerus.
+                        Logo VitaGlise, dengan paduan warna merah dan biru yang cerdas, merepresentasikan esensi dari alat ini. Warna merah mencerminkan vena, membawa pesan tentang kehidupan dan vitalitas yang mengalir di dalam tubuh. Sementara warna biru merepresentasikan arteri, menggambarkan harapan dan perjuangan untuk menjaga kesehatan jantung dengan teliti dan cermat.
+                        Kehadiran VitaGlise dalam hidup seseorang adalah seperti pasangan yang mengawal dengan setia, mengingatkan bahwa kesehatan adalah investasi terpenting dalam kehidupan. VitaGlise memungkinkan penderita Hiperglikemia dan Hiperkolesterolemia untuk memiliki kendali lebih besar atas kesehatan mereka, sehingga mereka dapat menjalani hidup dengan penuh semangat dan bugar.
+                        Jadi, VitaGlise bukan sekadar alat pencegahan, tetapi juga simbol kehidupan yang dijaga dengan teknologi canggih dan perawatan penuh kasih. Kita memasuki era di mana kesehatan tidak lagi menjadi beban, melainkan sebuah kisah sukses yang dapat ditulis dengan bimbingan dan perhatian dari VitaGlise. Selamatkan hidup Anda, sambut VitaGlise, dan hidupilah setiap momen dengan penuh vitalitas dan keceriaan!</p>
+                  </div>
+                  <div class = "about-right flex">
+                      <div class = "img">
+                          <img src = "images/background3.png">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- end of about section -->
+
+      <section id = "banner-one" class = "banner-one text-center2">
+        <div class = "container2 text-white">
+            <blockquote class = "lead"><i class = "fas fa-quote-left"></i> Waktu dan kesehatan adalah dua aset berharga yang tidak dikenali dan hargai sampai keduanya hilang. <i class = "fas fa-quote-right"></i></blockquote>
+            <small class = "text2 text-sm">- Denis Waitley</small>
+        </div>
+    </section>
+           <!-- banner two section -->
+           <section>
+            <div class="container3" id="learn2">
+              <h1>TAHUKAH KAMU APA ITU JANTUNG KORONER?</h1>
+              <div class="veiw-box">
+                  <div id="testimonials">
+                      <div class="user">
+                          <p>Jantung koroner adalah rangkaian pembuluh darah yang menyuplai darah ke otot jantung. Penyakit jantung koroner terjadi ketika pembuluh darah ini mengalami penyempitan atau penyumbatan akibat penumpukan plak aterosklerotik, yang dapat mengganggu aliran darah dan oksigen ke jantung.</p>
+                          <h3>Jantung Koroner</h3>
+                      </div>
+                      
+                      <div class="user space">
+                          <p>Faktor gaya hidup tidak sehat, seperti diet tinggi lemak dan kolesterol, kurangnya aktivitas fisik, merokok, serta faktor genetik dan penuaan. Faktor risiko lain termasuk tekanan darah tinggi, diabetes, obesitas, stres, dan konsumsi alkohol berlebihan.</p>
+                          <h3>Penyebab Jantung Koroner</h3>
+                      </div>
+                      
+                      <div class="user">
+                          <p>Bahaya jantung koroner dapat mencakup serangan jantung (infark miokard), angina (nyeri dada), gagal jantung, aritmia (gangguan irama jantung), hingga kematian mendadak. Kondisi ini dapat mengganggu fungsi jantung dan mengancam kehidupan, sehingga pengelolaan penyakit jantung koroner dan pencegahannya sangat penting.</p>
+                          <h3>Bahaya Jantung Koroner</h3>
+                      </div>
+  
+                  </div>
+                  
+                  <div class="controls">
+                      <span id="control1"></span>
+                      <span id="control2" class="active2"></span>
+                      <span id="control3"></span>
+                  </div>
+                  
+              </div>
+          </div>
+        </section>
+        <!-- end of banner two section -->
+
+    <section class="aside">
+      <div class="right">
+        <div class="top">
+          <button id="menu-btn">
+            <span class="material-symbols-sharp"> menu </span>
+          </button>
+          <div class="theme-toggler">
+            <span class="material-symbols-sharp active"> light_mode </span>
+            <span class="material-symbols-sharp"> dark_mode </span>
+          </div>
+        </div>
+        <!-- End of top -->
+      </div>
+    </section>
+   <section>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+            <h2><%=name%></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-sharp"> close </span>
+          </div>
+        </div>
+        <div class="sidebar">
+          <a class="active">
+            <span class="material-symbols-sharp"> dashboard </span>
+            <h3>Dashboard</h3>
+          </a>
+          <a class="active">
+            <span class="material-symbols-sharp"> Database </span>
+            <h3>Database</h3>
+          </a>
+        </div>
+      </aside> 
+      <main>
+        <h1 id="learn3"><%=dashboardTitle%></h1>
+        <div class="connection-status">
+          <h3>Connection Status: <span class="status">Disconnected</span></h3>
+        </div>
+        <div class="insights">
+          <div class="bpm">
+            <div class="middle">
+              <div class="left">
+                <h3>BPM</h3>
+                <h1 id="bpm" style="text-align: center;"></h1>
+              </div>
+              <div class="icon">
+              </div>
+            </div>
+          </div>
+          <!-- End of BPM -->
+          <div class="spo2">
+            <div class="middle">
+              <div class="left">
+                <h3>SpO2</h3>
+                <h1 id="spo2" style="text-align: center;"></h1>
+              </div>
+              <div class="icon">
+              </div>
+            </div>
+          </div>
+          <!-- End of humidity -->
+        </div>
+        <!-- End of Insights -->
+        <div class="histories">
+          <h2>Historical Charts</h2>
+          <div class="history-charts">
+            <div id="kolesterol-history" class="history-divs"></div>
+            <div id="glukosa-history" class="history-divs"></div>
+            <div id="asamurat-history" class="history-divs"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./mqttService.js"></script>
+  </body>
+</html>
